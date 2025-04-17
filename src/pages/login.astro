@@ -52,7 +52,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
           });
           if (response.ok) {
             sessionStorage.setItem('github_pat', pat);
-            window.location.href = '/';
+            // window.location.href = '/';
           } else {
             errorDiv.textContent = 'Invalid PAT. Please try again.';
           }
