@@ -35,9 +35,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
     </main>
     <Footer />
     <script type="module">
-      const patInput = document.getElementById('pat') as HTMLInputElement;
-      const submitButton = document.getElementById('submit') as HTMLButtonElement;
-      const errorDiv = document.getElementById('error') as HTMLDivElement;
+      const patInput = document.getElementById('pat');
+      const submitButton = document.getElementById('submit');
+      const errorDiv = document.getElementById('error');
 
       submitButton.addEventListener('click', async () => {
         const pat = patInput.value.trim();
